@@ -133,8 +133,15 @@
 ```
 ```
 - Class: Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here 
-- Severity: CodeSmell - Critical
+- Severity: Bug - Major
 - File: ArixRadioActivity.java
 - Procedure: sendBroadcastToMusincPause
 - Changes: Add "Thread.current.Tread().interrupt();"
+```
+```
+- Class: Add a default caseto this switch 
+- Severity: CodeSmell - Critical
+- File: ArixRadioActivity.java
+- Procedure: onKeyUp
+- Changes: Add "default:"
 ```
