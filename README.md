@@ -139,7 +139,7 @@
 - Changes: Add "Thread.current.Tread().interrupt();"
 ```
 ```
-- Class: Add a default caseto this switch 
+- Class: Add a default case to this switch 
 - Severity: CodeSmell - Critical
 - File: ArixRadioActivity.java
 - Procedure: onKeyUp
